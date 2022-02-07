@@ -18,8 +18,8 @@
       "type": "string"
     },
     "category": {
-      "model": "category",
-      "via": "products"
+      "via": "products",
+      "model": "category"
     },
     "image": {
       "model": "file",
