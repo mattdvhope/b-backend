@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "posts",
   "info": {
-    "name": "Category",
+    "name": "post",
     "description": ""
   },
   "options": {
@@ -12,30 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "products": {
-      "via": "category",
-      "collection": "product"
-    },
-    "slug": {
-      "type": "string"
-    },
-    "image": {
-      "model": "file",
+    "Video": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
-        "files",
         "videos"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
     },
-    "posts": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "related_posts": {
       "collection": "post"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
