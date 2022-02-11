@@ -12,17 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "video": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "title": {
       "type": "string"
     },
@@ -36,6 +25,9 @@
       "type": "string"
     },
     "subtitle": {
+      "type": "string"
+    },
+    "image": {
       "type": "string"
     }
   }
