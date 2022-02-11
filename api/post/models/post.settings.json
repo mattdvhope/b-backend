@@ -35,7 +35,7 @@
     "slug": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     }
   }
