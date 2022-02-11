@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Video": {
+    "video": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
