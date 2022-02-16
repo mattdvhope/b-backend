@@ -27,7 +27,7 @@
     "subtitle": {
       "type": "string"
     },
-    "youtubeUrl": {
+    "youtubeurl": {
       "type": "string"
     },
     "image": {
